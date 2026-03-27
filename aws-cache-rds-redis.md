@@ -33,7 +33,7 @@ RDS MySQL
 * Encryption: ✅ Enabled
 
 📸 Screenshot:
-`images/image1.png`
+![image1](images/image1.png)
 
 ---
 
@@ -45,8 +45,8 @@ RDS MySQL
 * Encryption at rest: ✅ Enabled
 
 📸 Screenshots:
-`images/image2.png`
-`images/image3.png`
+![image2](images/image2.png)
+![image3](images/image3.png)
 
 ---
 
@@ -56,7 +56,7 @@ RDS MySQL
 * SSH enabled
 
 📸 Screenshot:
-`images/image4.png`
+![image4](images/image4.png)
 
 ---
 
@@ -72,7 +72,7 @@ RDS MySQL
 | Redis   | 6379 | EC2 SG |
 
 📸 Screenshot:
-`images/image5.png`
+![image5](images/image5.png)
 
 ---
 
@@ -87,7 +87,7 @@ ssh -i key.pem ec2-user@<your-ip>
 ```
 
 📸 Screenshot:
-`images/image6.png`
+![image6](images/image6.png)
 
 ---
 
@@ -99,7 +99,7 @@ sudo yum install python3-pip -y
 ```
 
 📸 Screenshot:
-`images/image7.png`
+![image7](images/image7.png)
 
 ---
 
@@ -134,7 +134,7 @@ wget https://truststore.pki.rds.amazonaws.com/global/global-bundle.pem
 ```
 
 📸 Screenshot:
-`images/image8.png`
+![image8](images/image8.png)
 
 ---
 
@@ -149,7 +149,7 @@ mysql -h database-1.c18iqsyokhk5.ap-south-1.rds.amazonaws.com -u mitesh -p --ssl
 ```
 
 📸 Screenshot:
-`images/image9.png`
+![image9](images/image9.png)
 
 ---
 
@@ -172,7 +172,7 @@ INSERT INTO student(name,dept) VALUES
 ```
 
 📸 Screenshot:
-`images/image10.png`
+![image10](images/image10.png)
 
 ---
 
@@ -187,7 +187,7 @@ nano cache_app.py
 ```
 
 📸 Screenshot:
-`images/image11.png`
+![image11](images/image11.png)
 
 ---
 
@@ -258,8 +258,8 @@ python3 cache_app.py
 * Second run → Cache Hit
 
 📸 Screenshots:
-`images/image12.png`
-`images/image13.png`
+![image12](images/image12.png)
+![image13](images/image13.png)
 
 ---
 
@@ -274,7 +274,7 @@ redis6-cli -h my-redis-tw2sdv.serverless.aps1.cache.amazonaws.com -p 6379 --tls
 ```
 
 📸 Screenshot:
-`images/image14.png`
+![image14](images/image14.png)
 
 ---
 
@@ -291,7 +291,7 @@ TTL student:computer
 ```
 
 📸 Screenshot:
-`images/image15.png`
+![image15](images/image15.png)
 
 ---
 
